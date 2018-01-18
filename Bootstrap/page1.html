@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scientists</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <script>
+       /* //Kintamuju tipai
+        //pagrindiniai:*/
+        var a=5; //a is a number
+        var word= "zodis";//word is a string/text
+        var b=true; // b is boolean (true/false)
+      /*  //papildomi:
+        var unknown= undefined;//unknown is undefine
+        //var objektas=object;
+        var funkcija=new function(){};//nauja funkcija */
+
+        //SKAICIAVIMAS
+
+        function calc() {
+            console.log(z);
+            var x = 10;
+            var y = 2;
+            var z= x + y ;
+
+            document.getElementById('result').innerText=z;
+        }
+       function test() {
+
+           var c = 'Kaune ';
+           var d = 'Sninga';
+           var res= c +' '+ d ;
+
+           document.getElementById('result').innerText=res;
+       }
+       function variables() {
+            var zodis1="Apple";
+            var skaicius2=3;
+            var rezultatas=zodis1+skaicius2;
+          console.log(typeof rezultatas);
+          // document.getElementById('result').innerText=rezultatas;
+       }
+
+    </script>
+</head>
+
+
+<body>
+<h1>JS Cheat sheet</h1>
+<div class="column">
+    <div class="col-lg-6">
+    <div class="plugin-wrapper">
+        musu busimas plugin
+        <a href="#"onmouseover="alert('peliukas ups')">I'm link</a>
+        <button class="btn" onclick="test()">Run</button>
+        <button onclick="variables()">Kintamieji</button>
+    </div>
+</div>
+</div>
+
+<div id="result">
+
+
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
