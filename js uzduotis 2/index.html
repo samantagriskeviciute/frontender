@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS uzduotis 2</title> <!--pavadinimas ant skirtuko-->
+
+<script>
+function showtext() {//funkcija
+//document.getElementById("result").innerHTML="mygtukas veikia!";//kviecia i ekrana
+    var t= document.getElementById("vardas").value;
+    t="Labas rytas "+t;
+    document.getElementById("result").innerHTML=t;
+    console.log(t);
+
+}
+</script>
+
+</head>
+<body><!--informacija-->
+<h1>Hello world!</h1><!--tekstas ekrane-->
+
+<div>
+    <button id="btn" onclick="showtext()">Calculate</button><!--mygtukas ant kurio paspaudus ismetamas tekstas-->
+</div>
+
+
+<div>
+    <input type="text" id="vardas"/><!--langelis kuriam rasom teksta-->
+</div>
+
+
+<div>
+    <div id="result"/> <!--parasomas id kuris naudojamas kai kviecia funkcija-->
+</div>
+
+
+</body>
+</html>
