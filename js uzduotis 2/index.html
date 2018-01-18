@@ -7,12 +7,25 @@
 
 <script>
 function showtext() {//funkcija
+
 //document.getElementById("result").innerHTML="mygtukas veikia!";//kviecia i ekrana
-    var t= document.getElementById("vardas").value;
-    t="Labas rytas "+t;
+    var vardas= document.getElementById("vardas").value;
+    var pavarde= document.getElementById("pavarde").value;
+
+    var kreipinys= pakeisti_teksta(vardas);
+    console.log("Labas "+kreipinys);
+
+    var t="Labas rytas "+vardas+' '+pavarde+'!';
     document.getElementById("result").innerHTML=t;
     console.log(t);
+}
 
+function pakeisti_teksta(tekstas) {
+    var x=tekstas+"ai";
+
+    x=x+":)";
+    x=x+"Ketvirtadienis";
+    return x;
 }
 </script>
 
@@ -21,12 +34,17 @@ function showtext() {//funkcija
 <h1>Hello world!</h1><!--tekstas ekrane-->
 
 <div>
-    <button id="btn" onclick="showtext()">Calculate</button><!--mygtukas ant kurio paspaudus ismetamas tekstas-->
+    <button id="btn" onclick="showtext()">Go!</button><!--mygtukas ant kurio paspaudus ismetamas tekstas-->
 </div>
 
 
 <div>
-    <input type="text" id="vardas"/><!--langelis kuriam rasom teksta-->
+    Vardas:
+    <input type="text" id="vardas" placeholder="iveskite varda..."/><!--langelis kuriam rasom teksta-->
+</div>
+<div>
+    Pavardė:
+    <input type="text" id="pavarde" placeholder="iveskite pavarde..."/>
 </div>
 
 
