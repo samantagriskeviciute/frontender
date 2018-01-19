@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zodziu lyginimas</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <script>
+function palyginti(){
+    var a_text=document.getElementById("word1").value;
+    var b_text=document.getElementById("word2").value;
+    if (a_text==b_text){
+            var word3 = "Šie žodžiai yra vienodi";
+        } else {
+            var word3 = "Šie žodžiai yra skirtingi";
+        }
+        document.getElementById("word3").value = word3;
+    }
+
+    </script>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="label label-danger" for="word1">Pirmas žodis:</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="text" class="form-control" id="word1" placeholder="Įveskite žodį...">
+                </div>
+                <label class="label label-danger" for="word2">Antras žodis:</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="text" class="form-control" id="word2" placeholder="Įveskite žodį...">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <button class="btn btn-success" onclick="palyginti()" id="btn">Palyginti</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="text" class="form-control" id="word3" placeholder="Atsakymas">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
