@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1954e658-a2f7-4151-b168-d4e67887cf16" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Masyvai/masyvai.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Rainbow/antras pavyzdys.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Rainbow/js/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Rainbow/vaivorykste.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mano Konsultantas/MK logo RGB.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mano Konsultantas/Puslapis.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mano Konsultantas/helper.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mano Konsultantas/manokonsultantas.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mano Konsultantas/style.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JS zodziu palyginimas/palyginimas.html" afterPath="$PROJECT_DIR$/JS zodziu palyginimas/palyginimas.html" />
+      <change beforePath="$PROJECT_DIR$/Mano Konsultantas/Puslapis.html" afterPath="$PROJECT_DIR$/Mano Konsultantas/Puslapis.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,22 +13,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vaivorykste.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Rainbow/vaivorykste.html">
+      <file leaf-file-name="Puslapis.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mano Konsultantas/Puslapis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="antras pavyzdys.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS Rainbow/antras pavyzdys.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="131">
+              <caret line="13" column="102" lean-forward="false" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +65,11 @@
         <option value="$PROJECT_DIR$/JS zodziu palyginimas/palyginimas.html" />
         <option value="$PROJECT_DIR$/Mano Konsultantas/style.css" />
         <option value="$PROJECT_DIR$/Mano Konsultantas/helper.html" />
-        <option value="$PROJECT_DIR$/Mano Konsultantas/Puslapis.html" />
         <option value="$PROJECT_DIR$/JS Masyvai/masyvai.html" />
         <option value="$PROJECT_DIR$/JS Rainbow/js/style.js" />
         <option value="$PROJECT_DIR$/JS Rainbow/vaivorykste.html" />
         <option value="$PROJECT_DIR$/JS Rainbow/antras pavyzdys.html" />
+        <option value="$PROJECT_DIR$/Mano Konsultantas/Puslapis.html" />
       </list>
     </option>
   </component>
@@ -129,7 +112,7 @@
             <path>
               <item name="frontender" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontender" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JS Rainbow" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mano Konsultantas" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -198,12 +181,12 @@
       <workItem from="1516089772518" duration="1928000" />
       <workItem from="1516563772224" duration="819000" />
       <workItem from="1516564993050" duration="98000" />
-      <workItem from="1516601736367" duration="9422000" />
+      <workItem from="1516601736367" duration="10668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51520000" />
+    <option name="totallyTimeSpent" value="52766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -212,7 +195,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,17 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mano Konsultantas/Puslapis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="111" lean-forward="false" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Masyvai/masyvai.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -570,14 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Rainbow/vaivorykste.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mano Konsultantas/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -588,9 +552,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS Rainbow/antras pavyzdys.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="528">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Rainbow/vaivorykste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mano Konsultantas/Puslapis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" column="102" lean-forward="false" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
